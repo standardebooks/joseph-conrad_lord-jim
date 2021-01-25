@@ -49,9 +49,10 @@
 		<meta property="term" refines="#subject-6">sh2008115470</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">Haunted by the part he played in a shipping disaster, young British seaman Jim escapes to an island in the South Seas to build his future.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">&lt;i&gt;Lord Jim&lt;/i&gt;, by &lt;a href="https://standardebooks.org/ebooks/joseph-conrad"&gt;Joseph Conrad&lt;/a&gt;, was first published in &lt;i&gt;Blackwood's Magazine&lt;/i&gt; in serial format between October 1899 to November 1990. The first edition of the complete book was published by William Blackwood and Sons in 1900, and the novel was ranked 85th on the Modern Library's list of 100 best English language novels of the 20th century. The story begins with the pivotal incident of young British seaman Jim being involved in the abandonment of the steamer &lt;i&gt;Patna&lt;/i&gt;. The resulting censure prevents Jim from finding stable employment, until a Captain Marlow suggests he find his future in Patusan, a small village on a remote island in the South Seas. There he is able to earn the respect of the islanders and is dubbed "Lord Jim". The abandonment of the steamer in the story is said to have been based on the real-life abandonment of the &lt;i&gt;S. S. Jeddah&lt;/i&gt; in 1880.</meta>
+		<meta id="long-description" property="se:long-description" refines="#description">&lt;i&gt;Lord Jim&lt;/i&gt;, by &lt;a href="https://standardebooks.org/ebooks/joseph-conrad"&gt;Joseph Conrad&lt;/a&gt;, was first published in &lt;i&gt;Blackwood’s Magazine&lt;/i&gt; in serial format between October 1899 to November 1990. The first edition of the complete book was published by William Blackwood and Sons in 1900, and the novel was ranked 85th on the Modern Library’s list of 100 best English language novels of the 20th century. The story begins with the pivotal incident of young British seaman Jim being involved in the abandonment of the steamer &lt;i&gt;Patna&lt;/i&gt;. The resulting censure prevents Jim from finding stable employment, until a Captain Marlow suggests he find his future in Patusan, a small village on a remote island in the South Seas. There he is able to earn the respect of the islanders and is dubbed “Lord Jim”. The abandonment of the steamer in the story is said to have been based on the real-life abandonment of the &lt;i&gt;S. S. Jeddah&lt;/i&gt; in 1880.</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5658</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/012360447</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Lord_Jim</meta>
@@ -87,6 +88,7 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
@@ -136,6 +138,7 @@
 		<item href="text/chapter-44.xhtml" id="chapter-44.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-45.xhtml" id="chapter-45.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -145,6 +148,7 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
 		<itemref idref="chapter-2.xhtml"/>
 		<itemref idref="chapter-3.xhtml"/>
