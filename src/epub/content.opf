@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/joseph-conrad/lord-jim</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-01-27T04:28:36Z</dc:date>
+		<meta property="dcterms:modified">2021-01-27T04:28:36Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,13 +48,19 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2008115470</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Novels</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">85</meta>
 		<dc:description id="description">Haunted by the part he played in a shipping disaster, young British seaman Jim escapes to an island in the South Seas to build his future.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">&lt;i&gt;Lord Jim&lt;/i&gt;, by &lt;a href="https://standardebooks.org/ebooks/joseph-conrad"&gt;Joseph Conrad&lt;/a&gt;, was first published in &lt;i&gt;Blackwood’s Magazine&lt;/i&gt; in serial format between October 1899 to November 1990. The first edition of the complete book was published by William Blackwood and Sons in 1900, and the novel was ranked 85th on the Modern Library’s list of 100 best English language novels of the 20th century. The story begins with the pivotal incident of young British seaman Jim being involved in the abandonment of the steamer &lt;i&gt;Patna&lt;/i&gt;. The resulting censure prevents Jim from finding stable employment, until a Captain Marlow suggests he find his future in Patusan, a small village on a remote island in the South Seas. There he is able to earn the respect of the islanders and is dubbed “Lord Jim.” The abandonment of the steamer in the story is said to have been based on the real-life abandonment of the &lt;i&gt;S. S. Jeddah&lt;/i&gt; in 1880. &lt;i&gt;Lord Jim&lt;/i&gt; encompasses issues of colonialism, dreams of heroism, guilt, failure and redemption. The book is remarkable for its unusual nested narrative structure, in which Captain Marlow and a number of other characters provide multiple perspectives of the protagonist. The gradual build-up of their richly described viewpoints imparts some understanding of Jim’s inner life, yet ultimately leaves him unknowable.</meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;i&gt;Lord Jim&lt;/i&gt; was first published as a serial in &lt;i&gt;Blackwood’s Magazine&lt;/i&gt; between October 1899 and November 1990. The first edition of the complete book was published by William Blackwood and Sons in 1900. The story begins when the young British seaman Jim, one of the crew of the steamer &lt;i&gt;Patna&lt;/i&gt;, abandons the ship while it’s in distress. The resulting censure prevents Jim from finding stable employment, until a captain named Marlow suggests he find his future in Patusan, a small village on a remote island in the South Seas. There he’s able to earn the respect of the islanders and is dubbed “Lord Jim.”&lt;/p&gt;
+			&lt;p&gt;The abandoning of the &lt;i&gt;Patna&lt;/i&gt; by its crew is said to have been based on the real-life abandoning of the S.S. &lt;i&gt;Jeddah&lt;/i&gt; in 1880. &lt;i&gt;Lord Jim&lt;/i&gt; explores issues of colonialism, dreams of heroism, guilt, failure, and redemption. The book is remarkable for its unusual nested narrative structure, in which Captain Marlow and a number of other characters provide multiple perspectives of the protagonist. The gradual build-up of their richly described viewpoints imparts glimpses of Jim’s inner life, yet ultimately leaves him unknowable.&lt;/p&gt;
+		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5658</dc:source>
 		<dc:source>https://archive.org/details/lordjim00conrgoog/</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">131502</meta>
+		<meta property="se:reading-ease.flesch">69.82</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Lord_Jim</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/joseph-conrad_lord-jim</meta>
 		<dc:creator id="author">Joseph Conrad</dc:creator>
@@ -85,6 +91,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
