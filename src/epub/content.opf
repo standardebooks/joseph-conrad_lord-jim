@@ -58,7 +58,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5658</dc:source>
 		<dc:source>https://archive.org/details/lordjim00conrgoog/</dc:source>
-		<meta property="se:word-count">131501</meta>
+		<meta property="se:word-count">131502</meta>
 		<meta property="se:reading-ease.flesch">69.82</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Lord_Jim</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/joseph-conrad_lord-jim</meta>
